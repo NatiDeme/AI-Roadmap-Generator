@@ -89,17 +89,13 @@ npm install
 
 ### 2) Configure environment variables
 
-Create `apps/api/.env`:
+Create `.env`:
 
 ```sh
 OPENAI_API_KEY=YOUR_KEY_HERE
+VITE_API_BASE_URL=API_LINK (if you change the backend to run on a different port from http://localhost:3333)
 ```
 
-Optional (frontend): create `apps/web/.env`:
-
-```sh
-VITE_API_BASE_URL=http://localhost:3333
-```
 
 ### 3) Run locally
 
