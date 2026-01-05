@@ -35,7 +35,7 @@ The app generates:
 - **Express** – backend API
 - **OpenAI** – roadmap generation
 - **React** – frontend UI
-- **TanStack Query** – async state management (mutation + cache)
+- **TanStack Query** – async state management (mutation)
 - **Tailwind CSS** – styling
 
 ## Architecture (high level)
@@ -114,8 +114,8 @@ npx nx dev web
 ## Engineering notes (case study)
 
 - **Async UX**: TanStack Query mutation for roadmap generation; pending state is shared via the mutation cache.
-- **Perceived performance**: rotating loading messages make the wait feel shorter.
-- **Data lifecycle**: latest roadmap is stored in query cache and persisted to local storage.
+- **Perceived performance**: rotating loading messages makes the wait feel shorter.
+- **Data lifecycle**: the latest roadmap is stored in the query cache and persisted to local storage.
 
 ## Next improvements
 
