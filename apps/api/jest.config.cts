@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: '@org/api',
+  displayName: 'api',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
