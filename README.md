@@ -112,9 +112,3 @@ npx nx dev web
 - **Async UX**: TanStack Query mutation for roadmap generation; pending state is shared via the mutation cache.
 - **Perceived performance**: rotating loading messages makes the wait feel shorter.
 - **Data lifecycle**: the latest roadmap is stored in the query cache and persisted to local storage.
-
-## Next improvements
-
-- **More reliable resources**: validate links, prefer curated domains, add deterministic fallbacks.
-- **Stricter output contracts**: runtime schema validation for API responses.
-- **History**: store multiple generated roadmaps per user.
